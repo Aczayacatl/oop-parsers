@@ -44,6 +44,8 @@ public class Main {
         parsers.put("rb", new RubyParser());
         parsers.put("py", new PythonParser());
 
+        System.out.println("Prueba de Emmanuel");
+
         for (String file : inputFiles) {
             String ext = file.substring(file.lastIndexOf('.') + 1);
 
